@@ -1,0 +1,45 @@
+<div class="Welcome appWrapper px-6" ng-if="vm.spinner">
+   <div class="Welcome__Body">
+      <div class="spinner"></div>
+   </div>
+</div>
+<div class="Locations appWrapper" ng-if="!vm.spinner">
+   <div class="TopBar">
+      <div class="TopBar__Body px-6 py-5">
+         <div>
+            <a class="Link Link--dark" href="#!/location">
+					<img src="assets/images/icons/16/arrow-long-left.svg" class="SVG SVG--inline c-bw-14" alt="back">
+				</a>
+         </div>
+         <div>
+            <p class="Text mb-0 c-bw-12 fwm">
+               {{ country }}
+            </p>
+         </div>
+         <div>
+            <a class="Link Link--dark" href="#!/settings">
+					<img src="assets/images/icons/16/hamburger.svg" class="SVG SVG--inline c-bw-14" alt="hamburger">
+				</a>
+         </div>
+	 </div>
+	 <hr class="TopBar__Separator mb-0 mt-0">
+   </div>
+   <div class="Locations__Body pb-6" ng-if="!vm.spinner">
+      <div class="px-6 mt-6 mb-0">
+         <div>
+            <input placeholder="Search servers" class="form-control TextInput ng-pristine ng-untouched ng-valid ng-empty" ng-model="searchString" name="searchString" ng-change="setInputScope(this)" ng-init="setInputScope(this)">
+         </div>
+	  </div>
+	  <div class="CountryList pt-7">
+	     <div class="CountryListItem px-6" ng-repeat="json in searchedList | searchFilter:getSearchString()">
+			 <a class="Link CountryList__Item mb-6 Link--dark" href="#!/connectTo/{{ json.domain }}">
+				<img ng-src="assets/images/flags/24x18/{{ flagLowercase }}.svg" class="SVG" alt="{{ flag }}">
+				<p class="Text small ml-5 mr-2 mb-0 fwm">
+					{{ json.name }}
+				</p>
+			</a>
+         </div>
+      </div>
+   </div>
+</div>
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16/close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#151922">
+            <path d="M8,0 C12.4,0 16,3.6 16,8 C16,12.4 12.4,16 8,16 C3.6,16 0,12.4 0,8 C0,3.6 3.6,0 8,0 Z M9.44606781,8.04024936 L9.44743796,8.03887922 L11.570032,5.91421356 L10.1558184,4.5 L8.03218859,6.62362985 L5.91190405,4.50334531 L4.5,5.91524936 L6.625,8.04024936 L6.62362985,8.04161951 L4.5010358,10.1662852 L5.91524936,11.5804987 L8.03887922,9.45686887 L10.1591638,11.5771534 L11.5710678,10.1652494 L9.44606781,8.04024936 Z"></path>
+        </g>
+    </g>
+</svg>

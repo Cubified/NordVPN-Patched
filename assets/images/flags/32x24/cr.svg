@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>flags/32x24/cr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M1,0 L31,0 C31.5522847,-1.01453063e-16 32,0.44771525 32,1 L32,23 C32,23.5522847 31.5522847,24 31,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" fill="#012B7F"></path>
+            <polygon fill="#F7F7F7" points="0 4 32 4 32 20 0 20"></polygon>
+            <polygon fill="#CE1127" points="0 7 32 7 32 17 0 17"></polygon>
+            <circle fill="#F7F7F7" cx="10" cy="12" r="3"></circle>
+            <circle fill="#666666" cx="10" cy="12" r="1"></circle>
+            <path d="M1,1 L1,23 L31,23 L31,1 L1,1 Z M1,0 L31,0 C31.5522847,-1.01453063e-16 32,0.44771525 32,1 L32,23 C32,23.5522847 31.5522847,24 31,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" fill="#000000" fill-rule="nonzero" opacity="0.200000003"></path>
+        </g>
+    </g>
+</svg>

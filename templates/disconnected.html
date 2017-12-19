@@ -1,0 +1,33 @@
+<div class="Welcome appWrapper px-6" ng-if="vm.spinner">
+   <div class="Welcome__Body">
+      <div class="spinner"></div>
+   </div>
+</div>
+<div class="Disconnected appWrapper" ng-if="!vm.spinner">
+   <div class="Disconnected__Header">
+      <div class="TopBar">
+         <div class="TopBar__Body px-6 py-5">
+            <div> <a class="Link" href="#!/"> <img src="assets/images/nordvpn-logo-colorful.svg" class="SVG" alt="nordvpn-logo"> </a> </div>
+            <div></div>
+            <div> <a class="Link Link--dark" href="#!/settings"> <img src="assets/images/icons/16/hamburger.svg" class="SVG SVG--inline c-bw-14" alt="hamburger"> </a> </div>
+         </div>
+         <hr class="TopBar__Separator mb-0 mt-0"> </div>
+      <div class="p-5 bg-bw-2" ng-if="vm.currentUser.expires <= 7">
+         <div class="row no-padding d-flex">
+            <div class="col-xs-8 my-auto"> <span class="Text micro">Your access ends in </span> <span class="Text micro c-pri-6 fwm"> <ng-pluralize count="vm.currentUser.expires" when="{'one': '1 day','other': '{} days'}"></ng-pluralize> </span> </div>
+            <div class="col-xs-4 text-right"> <a class="Button Button--primary Button--small" href="https://nordvpn.com/login/" target="_blank">Extend</a> </div>
+         </div>
+      </div>
+   </div>
+   <div class="text-center px-6">
+      <div class="mb-3 mt-10"> <span class="flag-container"> <img src="assets/images/icons/16/close.svg" class="SVG SVG--inline scale-32 c-bw-6"> </span> </div>
+	  <p class="Text mb-3 fwm c-bw-12">Not connected</p>
+      <p class="Text small mb-3 mb-10">Turn on NordVPN to encrypt your data and unlock the web.</p>
+   </div>
+   <div class="px-6">
+      <div class="Disconnected__Action"> <button class="Button Button--secondary Button--block mb-6" ng-click="vm.connect()" ng-disabled="vm.connecting">Auto connect</button>
+         <div class="mb-8"> <span> <img src="assets/images/icons/16/pin.svg" class="SVG SVG--inline c-blu-6 mr-3 vertical-middle" alt="Pin"> </span> <a class="Link Link--alt" href="#!/location"> <span class="Text micro fwm">Choose location</span> </a> </div>
+      </div>
+   </div>
+</div>
+

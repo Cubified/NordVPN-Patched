@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>icon/chrome/nordvpn-32-active</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#27BE56" fill-rule="nonzero">
+            <path d="M12.5573036,15.9059701 L15.5072522,8.82742843 L20.1217192,20.0472441 L22.0124894,16.6588077 L27.8376367,29.6105501 C30.4852489,26.5985325 31.9975981,22.7582602 31.9975981,18.6917361 C32.1491,9.95668475 25.1146073,2.65322615 16.2634268,2.50239168 C7.41358112,2.3515572 0.151501883,9.35401429 0,18.1651502 L0,18.7671533 C0,22.7582602 1.43693196,26.5985325 4.1606288,29.6105501 L11.1951215,13.7222073 L12.5573036,15.9059701 Z"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>flags/32x24/ge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <path d="M1,0 L31,0 C31.5522847,-1.01453063e-16 32,0.44771525 32,1 L32,23 C32,23.5522847 31.5522847,24 31,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" fill="#F7F7F7"></path>
+            <polygon fill="#FF0000" points="18 10 32 10 32 14 18 14 18 24 14 24 14 14 0 14 0 10 14 10 14 0 18 0"></polygon>
+            <path d="M8,5 L10,5 L10,7 L8,7 L8,9 L6,9 L6,7 L4,7 L4,5 L6,5 L6,3 L8,3 L8,5 Z M26,5 L28,5 L28,7 L26,7 L26,9 L24,9 L24,7 L22,7 L22,5 L24,5 L24,3 L26,3 L26,5 Z M8,17 L10,17 L10,19 L8,19 L8,21 L6,21 L6,19 L4,19 L4,17 L6,17 L6,15 L8,15 L8,17 Z M26,17 L28,17 L28,19 L26,19 L26,21 L24,21 L24,19 L22,19 L22,17 L24,17 L24,15 L26,15 L26,17 Z" fill="#FF0000"></path>
+            <path d="M1,1 L1,23 L31,23 L31,1 L1,1 Z M1,0 L31,0 C31.5522847,-1.01453063e-16 32,0.44771525 32,1 L32,23 C32,23.5522847 31.5522847,24 31,24 L1,24 C0.44771525,24 6.76353751e-17,23.5522847 0,23 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" fill="#000000" fill-rule="nonzero" opacity="0.200000003"></path>
+        </g>
+    </g>
+</svg>

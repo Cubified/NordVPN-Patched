@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16/iOS</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M14.326,12.08 C13.98,12.846 13.815,13.188 13.369,13.865 C12.748,14.81 11.873,15.988 10.788,15.998 C9.824,16.007 9.576,15.371 8.268,15.378 C6.96,15.385 6.686,16.009 5.722,16 C4.637,15.99 3.808,14.927 3.186,13.981 C1.45,11.337 1.268,8.235 2.339,6.586 C3.1,5.413 4.301,4.728 5.431,4.728 C6.581,4.728 7.303,5.358 8.254,5.358 C9.176,5.358 9.738,4.727 11.068,4.727 C12.073,4.727 13.138,5.274 13.896,6.219 C11.411,7.582 11.815,11.131 14.326,12.08 Z M10.604,2.699 C10.019,3.449 9.013,4.03 8.04,4 C7.863,3.033 8.319,2.038 8.871,1.367 C9.48,0.628 10.522,0.061 11.413,0 C11.564,1.01 11.15,1.999 10.604,2.699 Z" id="path-1"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use fill="#151922" fill-rule="nonzero" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

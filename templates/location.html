@@ -1,0 +1,30 @@
+<div class="Welcome appWrapper px-6" ng-if="vm.spinner">
+   <div class="Welcome__Body">
+      <div class="spinner"></div>
+   </div>
+</div>
+<div class="Locations appWrapper" ng-if="!vm.spinner">
+   <div class="TopBar">
+      <div class="TopBar__Body px-6 py-5">
+         <div> <a class="Link Link--dark" href="#!/"> <img src="assets/images/icons/16/arrow-long-left.svg" class="SVG SVG--inline c-bw-14" alt="back"> </a> </div>
+         <div>
+            <p class="Text mb-0 c-bw-12 fwm">Choose location</p>
+         </div>
+         <div> <a class="Link Link--dark" href="#!/settings"> <img src="assets/images/icons/16/hamburger.svg" class="SVG SVG--inline c-bw-14" alt="hamburger"> </a> </div>
+      </div>
+      <hr class="TopBar__Separator mb-0 mt-0"> </div>
+   <div class="Locations__Body pb-6">
+      <div class="px-6 mt-6 mb-0">
+         <div>
+            <div class="form-group"> <input placeholder="Search locations" class="form-control TextInput" ng-model="locationSearch"> </div>
+         </div>
+      </div>
+      <div class="CountryList pt-7">
+         <div class="CountryListItem px-6" ng-repeat="(flag, server) in vm.servers | locationFilter:locationSearch as results"> <a class="Link CountryList__Item mb-6 Link--dark" href="#!/showServers/{{ flag }}"> <img ng-src="assets/images/flags/24x18/{{ flag|lowercase }}.svg" class="SVG" alt="{{ server.country }}"> <p class="Text small ml-5 mr-2 mb-0 fwm">{{ server.country }}</p> <img src="assets/images/icons/16/chevron-right.svg" class="SVG SVG--inline c-bw-14" alt="arrow"> </a> </div>
+         <div class="CountryListItem px-6" ng-if="vm.isEmptyObject(results)">
+            <p class="Text small mb-0 fwm">No results found.</p>
+         </div>
+      </div>
+   </div>
+</div>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16/hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,12 L16,12 L16,14 L0,14 L0,12 Z M0,7 L16,7 L16,9 L0,9 L0,7 Z M0,2 L16,2 L16,4 L0,4 L0,2 Z" id="path-1"></path>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use fill="#151922" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

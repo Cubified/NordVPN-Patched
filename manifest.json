@@ -1,0 +1,44 @@
+{
+    "manifest_version": 2,
+    "name": "NordVPN Proxy Extension - Privacy & Security",
+    "short_name": "Web Proxy",
+    "description": "NordVPN Proxy for Chrome/Chromium",
+    "version": "1.0.1",
+    "icons": {
+        "16": "assets/images/icons/nordvpn-16-on.png",
+        "32": "assets/images/icons/nordvpn-32-on.png",
+        "48": "assets/images/icons/nordvpn-48-on.png",
+        "128": "assets/images/icons/nordvpn-128-on.png"
+    },
+    "browser_action": {
+        "default_icon": "assets/images/icons/nordvpn-48-off.png",
+        "default_popup": "main.html"
+    },
+    "permissions": [
+        "proxy",
+        "webRequest",
+        "webRequestBlocking",
+        "privacy",
+        "<all_urls>",
+        "storage",
+        "background",
+        "geolocation",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "assets/js/background.js"
+        ]
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "assets/js/fakegeo_content.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}

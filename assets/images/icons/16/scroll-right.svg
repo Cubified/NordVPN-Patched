@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icons/16/scroll-right</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g fill="#151922">
+            <path d="M16,8 C16,12.4 12.4,16 8,16 C3.6,16 -2.69422296e-16,12.4 0,8 C2.69422296e-16,3.6 3.6,-2.69422296e-16 8,0 C12.4,2.69422296e-16 16,3.6 16,8 Z M9.87637015,5.91190405 L8.46446609,4.5 L4.92893219,8.03553391 L6.34083624,9.44743796 L8.4655019,11.570032 L9.87971546,10.1558184 L7.7560856,8.03218859 L9.87637015,5.91190405 Z"></path>
+        </g>
+    </g>
+</svg>
