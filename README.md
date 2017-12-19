@@ -13,4 +13,4 @@ causes the browser to instantly crash.  I have been able to reproduce this outsi
 ### Planned features
 - Show geographic distance for each server
 - Implement searchbar optimizations
-- Cleanup/refactor code (especially the code I wrote myself, as this is the first time I've ever touched Angularjs)
+- Cleanup/refactor (& rebeautify - unsure why spacing is inconsistent) code (especially the code I wrote myself, as this is the first time I've ever touched Angularjs)
