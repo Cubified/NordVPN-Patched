@@ -7,6 +7,15 @@ On my installation of ungoogled-chromium 55.0.2883.75, any call to
     chrome.privacy.network.webRTCIPHandlingPolicy.set()
 causes the browser to instantly crash.  I have been able to reproduce this outside of this extension, meaning it is not a fault of this extension specifically, but rather the browser as a whole.  I assume this is as a result of using a (comparatively) out-of-date Chromium build, but I have yet to test it on a newer build (or one that has not had the ungoogled-chromium patches applied to it)
 
+### Installation
+1. `git clone "https://github.com/Cubified/NordVPN-Patched`
+2. `cd NordVPN-Patched`
+3. Navigate to [chrome://extensions](chrome://extensions)
+4. Tick the "Developer mode" box
+5. Press "Load unpacked extension..."
+6. Select the `NordVPN-Patched` folder
+7. Success!
+
 ### Known bugs
 - While it is functional, the per-country searchbar causes noticeable lag
 
